@@ -1,0 +1,6 @@
+﻿vendor/
+storage/
+config/db.php
+config/mail.php
+.env
+.DS_Store
