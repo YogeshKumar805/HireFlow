@@ -76,7 +76,7 @@ Clone or copy the project into:
 
 ---
 
-### Step 5: Configure Application Files
+### Step 3: Configure Application Files
 Create the following files by copying the example configs:
 
 
@@ -86,13 +86,13 @@ Fill in:
 
 ---
 
-### Step 6: Install PHP Dependencies
+### Step 4: Install PHP Dependencies
 From the project root (`C:\xampp\htdocs\crm`), run:
 
 
 ---
 
-### Step 7: Create Default Admin User
+### Step 5: Create Default Admin User
 Run this file **once** (browser or CLI):
 
 
@@ -100,7 +100,7 @@ This will create the default admin credentials.
 
 ---
 
-### Step 8: Access the Application
+### Step 6: Access the Application
 Open your browser and go to:
 http://localhost/crm/public/login.php
 
