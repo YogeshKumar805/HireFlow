@@ -38,16 +38,25 @@ HireFlow digitizes the hiring process by connecting candidate data, approval wor
 
 ## 📂 Project Structure
 
-crm/
-├── public/ # Web entry points (login, dashboard, offer)
-├── templates/ # Offer letter templates
-├── config/ # Configuration files
-├── sql/ # Database schema & seed
-├── storage/ # Generated PDFs (ignored in git)
-├── vendor/ # Composer dependencies (ignored in git)
-├── .gitignore
+HireFlow
+├── public/
+│   ├── login.php
+│   ├── dashboard.php
+│   └── offer_generate.php
+├── templates/
+│   └── offer_letter_template.php
+├── config/
+│   ├── auth.php
+│   ├── db.example.php
+│   └── mail.example.php
+├── sql/
+│   ├── schema.sql
+│   └── seed_admin.php
 ├── composer.json
+├── composer.lock
+├── .gitignore
 └── README.md
+
 
 
 Login using the generated admin credentials.
