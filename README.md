@@ -62,6 +62,48 @@ HireFlow
 Login using the generated admin credentials.
 
 ---
+## ⚙️ Installation & Setup (XAMPP)
+
+### Step 1: Install XAMPP
+- Download and install **XAMPP**
+- PHP version **8.x** is recommended
+
+---
+
+### Step 2: Place Project in htdocs
+Clone or copy the project into:
+
+
+---
+
+### Step 5: Configure Application Files
+Create the following files by copying the example configs:
+
+
+Fill in:
+- Database credentials (MySQL)
+- SMTP credentials (use Gmail App Password – 16 characters)
+
+---
+
+### Step 6: Install PHP Dependencies
+From the project root (`C:\xampp\htdocs\crm`), run:
+
+
+---
+
+### Step 7: Create Default Admin User
+Run this file **once** (browser or CLI):
+
+
+This will create the default admin credentials.
+
+---
+
+### Step 8: Access the Application
+Open your browser and go to:
+http://localhost/crm/public/login.php
+
 
 ## 📄 Offer Letter Flow
 
